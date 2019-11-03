@@ -18,7 +18,8 @@ import com.ngyb.dialogsummary.R;
  */
 public class MyAdapter extends BaseAdapter {
     private CustomerDialog customerDialog;
-    public int[] drawables = new int[]{};
+    public int[] drawables = new int[]{R.drawable.shape_alpha_style,R.drawable.shape_orange_style,R.drawable.shape_blue_style,
+    R.drawable.shape_gray_style,R.drawable.shape_green_style};
     public String[] title = new String[]{"半透明", "活力橙", "卫士蓝", "金属灰", "苹果绿"};
     private Context context;
 
