@@ -20,5 +20,5 @@ Add it in your root build.gradle at the end of repositories:
 ### Step 2. Add the dependency ###
 
     dependencies {
-	        implementation 'com.github.nangongyibin:Android_DialogSummary:1.0.4'
+	        implementation 'com.github.nangongyibin:Android_DialogSummary:1.0.5'
 	}
