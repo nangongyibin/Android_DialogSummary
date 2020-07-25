@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.ngyb.dialogsummary.CustomerDialog;
+import com.ngyb.dialogsummary.SelfDialog;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,7 +17,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void on(View view) {
-        CustomerDialog customerDialog = new CustomerDialog(this);
-        customerDialog.show();
+//        CustomerDialog customerDialog = new CustomerDialog(this);
+//        customerDialog.show();
+        SelfDialog selfDialog = new SelfDialog(this);
+        selfDialog.setRes(R.drawable.check,"立即提交！！！！");
+        selfDialog.show();
     }
 }
