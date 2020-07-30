@@ -22,3 +22,11 @@ Add it in your root build.gradle at the end of repositories:
     dependencies {
 	        implementation 'com.github.nangongyibin:Android_DialogSummary:1.0.5'
 	}
+
+### CustomerDialog示例图 ###
+
+![](https://github.com/nangongyibin/Android_DialogSummary/blob/master/example-customer.png?raw=true)
+
+### selfDialog示例图 ###
+
+![](https://github.com/nangongyibin/Android_DialogSummary/blob/master/example-self.png?raw=true)
