@@ -17,10 +17,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void on(View view) {
-//        CustomerDialog customerDialog = new CustomerDialog(this);
-//        customerDialog.show();
-        SelfDialog selfDialog = new SelfDialog(this);
-        selfDialog.setRes(R.drawable.check,"立即提交！！！！");
-        selfDialog.show();
+        CustomerDialog customerDialog = new CustomerDialog(this);
+        customerDialog.show();
+//        SelfDialog selfDialog = new SelfDialog(this);
+//        selfDialog.setRes(R.drawable.check,"立即提交！！！！");
+//        selfDialog.show();
     }
 }
